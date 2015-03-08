@@ -51,7 +51,7 @@ AV.Cloud.define('export', function(request, response) {
 AV.Cloud.define('getTheIncomeStatementStructure', function(request, response) {
 	var structure = {'title': '利润表',
 	'numberOfColumns': 4,
-	'numberOfRows': 34,
+	'numberOfRows': 1,
 	'rows': [
 	// 0
 	['项目', '附注', '期末数据', '期初数据', '', '', ''],
@@ -62,7 +62,7 @@ AV.Cloud.define('getTheIncomeStatementStructure', function(request, response) {
 AV.Cloud.define('getTheBalanceSheetContinuedStructure', function(request, response) {
 	var structure = {'title': '资产负债表（续）',
 	'numberOfColumns': 4,
-	'numberOfRows': 34,
+	'numberOfRows': 1,
 	'rows': [
 	// 0
 	['项目', '附注', '期末数据', '期初数据', '', '', ''],
