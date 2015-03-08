@@ -24,7 +24,7 @@ AV.Cloud.define('export', function(request, response) {
 	                    sheets[1] = data;
 	                }
 	                
-	                AV.Cloud.run('getTheBalanceSheetContinuedStructure', null, {
+	                AV.Cloud.run('getTheIncomeStatementStructure', null, {
 	                    success: function(data) {
 	                        if (data != null) {
 	                            sheets[2] = data;
